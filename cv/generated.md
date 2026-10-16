@@ -37,7 +37,7 @@
 
 
 
-## **Contract lecturer, Informatica 1 (academic year 2024/2025)**
+## **Professore a contratto, Laboratorio di Informatica I (academic year 2024/2025)**
 
 *Milan, Italy*
 
