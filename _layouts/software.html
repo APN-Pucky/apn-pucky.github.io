@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article>
+  <p class="meta"><a href="{{ '/software/' | relative_url }}">← All software</a></p>
+  <h1>{{ page.title }}</h1>
+  <p class="meta">
+    {% if page.status %}<span class="status-badge{% if page.status == 'Active' %} is-active{% endif %}">{{ page.status }}</span>{% endif %}
+    {% if page.role %} · {{ page.role }}{% endif %}
+  </p>
+  <p class="lede">{{ page.description }}</p>
+
+  <p class="link-row">
+    {% if page.repo %}<a href="{{ page.repo }}">Source</a>{% endif %}
+    {% if page.docs %}<a href="{{ page.docs }}">Documentation</a>{% endif %}
+    {% if page.pypi %}<a href="{{ page.pypi }}">PyPI</a>{% endif %}
+    {% if page.doi %}<a href="https://doi.org/{{ page.doi }}">DOI: {{ page.doi }}</a>{% endif %}
+    {% if page.paper %}<a href="{{ page.paper }}">Paper</a>{% endif %}
+  </p>
+
+  {% if page.install %}
+  <pre><code>{{ page.install }}</code></pre>
+  {% endif %}
+
+  {% if page.language or page.license %}
+  <ul class="tag-list">
+    {% if page.language %}<li>{{ page.language }}</li>{% endif %}
+    {% if page.license %}<li>{{ page.license }}</li>{% endif %}
+  </ul>
+  {% endif %}
+
+  {{ content }}
+</article>

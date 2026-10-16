@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "url": "{{ site.url }}/",
+  "jobTitle": "{{ site.author.job_title }}",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "{{ site.author.affiliation }}",
+    "url": "{{ site.author.affiliation_url }}"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "{{ site.author.previous_affiliation }}",
+    "url": "{{ site.author.previous_affiliation_url }}"
+  },
+  "email": "mailto:{{ site.author.email }}",
+  "sameAs": [
+    "https://orcid.org/{{ site.author.orcid }}",
+    "{{ site.author.inspire_url }}",
+    "{{ site.author.github }}",
+    "{{ site.author.gitlab }}",
+    "{{ site.author.codeberg }}",
+    "{{ site.author.scholar_url }}"
+  ]
+}
+</script>

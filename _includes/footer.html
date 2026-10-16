@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      © {{ 'now' | date: "%Y" }} {{ site.author.name }}. Built with Jekyll, no client-side JavaScript.
+      Source at <a href="https://github.com/APN-Pucky/apn-pucky.github.io">GitHub</a>.
+    </div>
+    <ul class="profile-links">
+      <li><a href="https://orcid.org/{{ site.author.orcid }}">ORCID</a></li>
+      <li><a href="{{ site.author.inspire_url }}">INSPIRE-HEP</a></li>
+      <li><a href="{{ site.author.github }}">GitHub</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      <li><a href="{{ '/notes/feed.xml' | relative_url }}">RSS</a></li>
+    </ul>
+  </div>
+</footer>

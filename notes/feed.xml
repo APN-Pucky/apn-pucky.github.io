@@ -1,0 +1,27 @@
+---
+permalink: /notes/feed.xml
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }} — Notes</title>
+  <subtitle>{{ site.description | strip_newlines | normalize_whitespace }}</subtitle>
+  <link href="{{ '/notes/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ site.url }}/" rel="alternate" type="text/html" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+  </author>
+  {% assign notes = site.notes | sort: "date" | reverse %}
+  {% for n in notes %}
+  <entry>
+    <title>{{ n.title | xml_escape }}</title>
+    <link href="{{ n.url | absolute_url }}" rel="alternate" type="text/html" />
+    <id>{{ n.url | absolute_url }}</id>
+    <published>{{ n.date | date_to_xmlschema }}</published>
+    <updated>{{ n.date | date_to_xmlschema }}</updated>
+    <summary>{{ n.description | strip_html | strip_newlines | normalize_whitespace | xml_escape }}</summary>
+  </entry>
+  {% endfor %}
+</feed>

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article>
+  <p class="meta"><a href="{{ '/publications/' | relative_url }}">← All publications</a></p>
+  <h1>{{ page.title }}</h1>
+  <p class="meta">{{ page.authors | join: ", " }}</p>
+  <p class="meta">
+    {% if page.venue %}{{ page.venue }}{% endif %}
+    {% if page.date %} · {{ page.date | date: "%Y" }}{% endif %}
+    {% if page.status %} · <span class="status-badge{% if page.status == 'Preprint' %} is-active{% endif %}">{{ page.status }}</span>{% endif %}
+  </p>
+
+  <p class="link-row">
+    {% if page.arxiv %}<a href="https://arxiv.org/abs/{{ page.arxiv }}">arXiv:{{ page.arxiv }}</a>{% endif %}
+    {% if page.doi %}<a href="https://doi.org/{{ page.doi }}">DOI: {{ page.doi }}</a>{% endif %}
+    {% if page.inspire %}<a href="{{ page.inspire }}">INSPIRE-HEP</a>{% endif %}
+    {% if page.code %}<a href="{{ page.code }}">Code</a>{% endif %}
+    {% if page.journal_url %}<a href="{{ page.journal_url }}">Journal</a>{% endif %}
+    {% if page.pdf %}<a href="{{ page.pdf }}">PDF</a>{% endif %}
+  </p>
+
+  {% if page.description %}
+  <div class="abstract">
+    <h2>Abstract</h2>
+    <p>{{ page.description }}</p>
+  </div>
+  {% endif %}
+
+  {{ content }}
+</article>

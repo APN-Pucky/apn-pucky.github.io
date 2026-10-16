@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article>
+  <p class="meta"><a href="{{ '/research/' | relative_url }}">← All research</a></p>
+  <h1>{{ page.title }}</h1>
+  {% if page.status %}<p class="meta"><span class="status-badge{% if page.status == 'Active' %} is-active{% endif %}">{{ page.status }}</span></p>{% endif %}
+  <p class="lede">{{ page.description }}</p>
+
+  {{ content }}
+
+  {% assign related_pubs = site.publications | where_exp: "p", "p.research_tags contains page.slug" %}
+  {% if related_pubs.size > 0 %}
+  <h2>Related publications</h2>
+  <ul class="card-list">
+    {% for p in related_pubs %}
+    <li class="card">
+      <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+      <p class="meta">{{ p.venue }}{% if p.date %} · {{ p.date | date: "%Y" }}{% endif %}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% assign related_software = site.software | where_exp: "s", "s.research_tags contains page.slug" %}
+  {% if related_software.size > 0 %}
+  <h2>Related software</h2>
+  <ul class="card-list">
+    {% for s in related_software %}
+    <li class="card">
+      <h3><a href="{{ s.url | relative_url }}">{{ s.title }}</a></h3>
+      <p>{{ s.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>

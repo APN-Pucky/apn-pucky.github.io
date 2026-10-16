@@ -1,0 +1,159 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+#
+# Single source of truth for the CV. Do not hand-edit cv/index.md or
+# assets/cv/*.pdf — both are generated from this file by
+# .github/workflows/pages.yml via `rendercv render cv.yaml`.
+cv:
+  name: Alexander Puck Neuwirth
+  headline: Theoretical and Computational Particle Physicist
+  location: Milan, Italy
+  email: alexander.neuwirth@unimib.it
+  website: https://alexander-neuwirth.com
+  social_networks:
+    - network: ORCID
+      username: "0000-0002-2484-1328"
+    - network: GitHub
+      username: APN-Pucky
+    - network: GitLab
+      username: APN-Pucky
+    - network: Google Scholar
+      username: qdaEI4YAAAAJ
+  custom_connections:
+    - fontawesome_icon: fa-solid fa-book-open
+      placeholder: INSPIRE-HEP
+      url: https://inspirehep.net/authors/2603185
+    - fontawesome_icon: fa-solid fa-code-branch
+      placeholder: Codeberg
+      url: https://codeberg.org/APN-Pucky
+    - fontawesome_icon: fa-solid fa-building-columns
+      placeholder: Milano-Bicocca faculty page
+      url: https://en.unimib.it/alexander-puck-neuwirth
+  sections:
+    education:
+      - institution: University of Münster
+        area: Theoretical Physics
+        degree: PhD
+        date: 2024
+        location: Münster, Germany
+        highlights:
+          - 'Thesis: "Precision Computations for Photons, Jets and BSM-Particles at the LHC"'
+          - "Advisors: Prof. Dr. Michael Klasen, Prof. Dr. Christian Klein-Bösing"
+    experience:
+      - company: University of Milano-Bicocca
+        position: Research Fellow, Department of Physics "Giuseppe Occhialini"
+        date: 2024 – present
+        location: Milan, Italy
+        highlights:
+          - "Precision predictions for photon production, electroweak corrections and Monte Carlo event generators"
+      - company: University of Milano-Bicocca
+        position: "Contract lecturer, Informatica 1 (academic year 2024/2025)"
+        date: "2024 – 2025"
+        location: Milan, Italy
+        highlights:
+          - "Taught in English; course materials prepared in Italian"
+    publications:
+      - title: "Photon Fragmentation Functions in LHAPDF: Existing Sets and a Pythia-Based Extraction"
+        authors:
+          - "*Alexander Puck Neuwirth*"
+        journal: "arXiv preprint"
+        date: "2026-08"
+        url: https://arxiv.org/abs/2608.15944
+      - title: "pylhe: A Lightweight Python Interface to Les Houches Event Files"
+        authors:
+          - "*Alexander Puck Neuwirth*"
+          - Matthew Feickert
+          - Lukas Heinrich
+          - Eduardo Rodrigues
+        journal: "Journal of Open Source Software, 11(126), 11128"
+        date: "2026-07"
+        doi: 10.21105/joss.11128
+      - title: "Conversion of Photons to Dileptons in the Kroll-Wada and Parton Shower Approaches"
+        authors:
+          - Tomáš Ježo
+          - Michael Klasen
+          - "*Alexander Puck Neuwirth*"
+        journal: "JHEP 03 (2026) 024"
+        date: "2025-06"
+        doi: 10.1007/JHEP03(2026)024
+      - title: "Prompt Photon Production with Two Jets in POWHEG"
+        authors:
+          - Tomáš Ježo
+          - Michael Klasen
+          - "*Alexander Puck Neuwirth*"
+        journal: "JHEP 02 (2025) 125"
+        date: "2024-09"
+        doi: 10.1007/JHEP02(2025)125
+      - title: "Combination and Reinterpretation of LHC SUSY Searches"
+        authors:
+          - Alexander Feike
+          - Juri Fiaschi
+          - Benjamin Fuks
+          - Michael Klasen
+          - "*Alexander Puck Neuwirth*"
+        journal: "JHEP 07 (2024) 122"
+        date: "2024-03"
+        doi: 10.1007/JHEP07(2024)122
+      - title: "Di-Electron Production at the LHC: Unravelling Virtual-Photon and Heavy-Flavour Contributions"
+        authors:
+          - Anton Andronic
+          - Tomáš Ježo
+          - Michael Klasen
+          - Christian Klein-Bösing
+          - "*Alexander Puck Neuwirth*"
+        journal: "JHEP 05 (2024) 222"
+        date: "2024-01"
+        doi: 10.1007/JHEP05(2024)222
+      - title: "Electroweak Superpartner Production at 13.6 TeV with Resummino"
+        authors:
+          - J. Fiaschi
+          - B. Fuks
+          - M. Klasen
+          - "*A. Neuwirth*"
+        journal: "Eur. Phys. J. C 83, 707"
+        date: "2023-04"
+        doi: 10.1140/epjc/s10052-023-11888-y
+      - title: "Soft Gluon Resummation for Associated Squark-Electroweakino Production at the LHC"
+        authors:
+          - J. Fiaschi
+          - B. Fuks
+          - M. Klasen
+          - "*A. Neuwirth*"
+        journal: "JHEP 06 (2022) 130"
+        date: "2022-02"
+        doi: 10.1007/JHEP06(2022)130
+      - title: "Associated Squark-Electroweakino Production with NLO+NLL Precision"
+        authors:
+          - Juri Fiaschi
+          - Benjamin Fuks
+          - Michael Klasen
+          - "*Alexander Neuwirth*"
+        journal: "Proceedings, 56th Rencontres de Moriond (QCD session)"
+        date: "2022-05"
+        url: https://arxiv.org/abs/2205.07298
+    open_source:
+      - bullet: "**pylhe** — core maintainer; lightweight Python interface to Les Houches Event files (Scikit-HEP)"
+      - bullet: "**LHEUTILS** — author; command-line utilities for LHE event processing"
+      - bullet: "**LHAPDF** — code contributor to the standard LHC parton-distribution-function library"
+      - bullet: "**HepMC, Rivet, YODA** — contributor to the shared Monte Carlo event-record and analysis toolchain"
+      - bullet: "**Gentoo Linux** — developer, maintaining scientific packages in the gentoo-sci overlay"
+    skills:
+      - label: Programming
+        details: C/C++, Fortran, Python, Rust, CUDA, Bash
+      - label: HEP software
+        details: POWHEG-BOX(-RES), PYTHIA 8, GENEVA, Rivet, YODA, FastJet, HepMC, LHAPDF, OpenLoops, RECOLA, MadGraph
+      - label: Scientific computing
+        details: Monte Carlo integration and event generation, adaptive/rejection sampling, HPC and Slurm cluster workflows, reproducible packaging and CI
+design:
+  theme: sb2nov
+locale:
+  language: english
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    pdf_path: assets/cv/alexander-puck-neuwirth-cv.pdf
+    markdown_path: cv/generated.md
+    typst_path: rendercv_output/cv.typ
+    dont_generate_html: true
+    dont_generate_png: true
+  pdf_title: "Alexander Puck Neuwirth — CV"

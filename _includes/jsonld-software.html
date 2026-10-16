@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  {%- if page.repo %}
+  "codeRepository": "{{ page.repo }}",
+  {%- endif %}
+  {%- if page.language %}
+  "programmingLanguage": {{ page.language | jsonify }},
+  {%- endif %}
+  {%- if page.license %}
+  "license": "https://spdx.org/licenses/{{ page.license }}.html",
+  {%- endif %}
+  "url": "{{ page.url | absolute_url }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
+  }
+}
+</script>

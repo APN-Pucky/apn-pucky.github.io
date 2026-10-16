@@ -1,0 +1,93 @@
+title: Alexander Puck Neuwirth
+short_name: A. P. Neuwirth
+tagline: Theoretical & computational particle physicist
+description: >-
+  Personal research site of Alexander Puck Neuwirth, a theoretical and
+  computational particle physicist working on perturbative QCD, electroweak
+  corrections, photon production and Monte Carlo event generators.
+url: "https://alexander-neuwirth.com"
+baseurl: ""
+lang: en
+
+author:
+  name: Alexander Puck Neuwirth
+  job_title: Research Fellow
+  affiliation: University of Milano-Bicocca
+  affiliation_department: Dipartimento di Fisica "Giuseppe Occhialini"
+  affiliation_url: "https://www.unimib.it/"
+  locality: "Milan, Italy"
+  email: alexander.neuwirth@unimib.it
+  orcid: "0000-0002-2484-1328"
+  inspire_url: "https://inspirehep.net/authors/2603185"
+  github: "https://github.com/APN-Pucky"
+  gitlab: "https://gitlab.com/APN-Pucky"
+  codeberg: "https://codeberg.org/APN-Pucky"
+  scholar_url: "https://scholar.google.com/citations?user=qdaEI4YAAAAJ"
+  previous_affiliation: University of Münster
+  previous_affiliation_url: "https://www.uni-muenster.de/Physik.TP/"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:collection/:name/
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
+    sort_by: date
+  software:
+    output: true
+    permalink: /software/:name/
+  research:
+    output: true
+    permalink: /research/:name/
+  notes:
+    output: true
+    permalink: /notes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: software
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - cv.yaml
+  - rendercv_output
+  - "*.gemspec"
+
+future: false
