@@ -9,13 +9,13 @@ permalink: /contact/
 
 # Contact
 
-**Email:** [alexander.neuwirth /at/ unimib.it](mailto:{{ site.author.email }}) (primary, University of Milano-Bicocca)
+**Email:** [{{ site.author.email | replace: "@", " /at/ " }}](mailto:{{ site.author.email }}) (primary, University of Milano-Bicocca)
 
 Other institutional addresses on record:
 
-- alexander.neuwirth /at/ mib.infn.it (INFN Milano-Bicocca)
-- alexander.neuwirth /at/ uni-muenster.de (University of Münster)
-- alexander.puck.neuwirth /at/ cern.ch (CERN)
+- {{ site.author.infn_email | replace: "@", " /at/ " }} (INFN Milano-Bicocca)
+- {{ site.author.muenster_email | replace: "@", " /at/ " }} (University of Münster)
+- {{ site.author.cern_email | replace: "@", " /at/ " }} (CERN)
 - {{ site.author.gentoo_email | replace: "@", " /at/ " }} (Gentoo Linux)
 
 ## Academic profiles
