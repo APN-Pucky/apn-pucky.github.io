@@ -135,7 +135,7 @@ cv:
       - bullet: "**LHEUTILS** — author; command-line utilities for LHE event processing"
       - bullet: "**LHAPDF** — code contributor to the standard LHC parton-distribution-function library"
       - bullet: "**HepMC, Rivet, YODA** — contributor to the shared Monte Carlo event-record and analysis toolchain"
-      - bullet: "**Gentoo Linux** — developer, maintaining scientific packages in the gentoo-sci overlay"
+      - bullet: "**Gentoo Linux** — [developer](https://wiki.gentoo.org/wiki/User:APN-Pucky), maintaining scientific packages in the gentoo-sci overlay ([packages](https://repology.org/maintainer/apn-pucky@gentoo.org))"
     skills:
       - label: Programming
         details: C/C++, Fortran, Python, Rust, CUDA, Bash

@@ -149,7 +149,7 @@ Juri Fiaschi, Benjamin Fuks, Michael Klasen, *Alexander Neuwirth*
 
 - **HepMC, Rivet, YODA** — contributor to the shared Monte Carlo event-record and analysis toolchain
 
-- **Gentoo Linux** — developer, maintaining scientific packages in the gentoo-sci overlay
+- **Gentoo Linux** — [developer](https://wiki.gentoo.org/wiki/User:APN-Pucky), maintaining scientific packages in the gentoo-sci overlay ([packages](https://repology.org/maintainer/apn-pucky@gentoo.org))
 
 # Skills
 **Programming:** C/C++, Fortran, Python, Rust, CUDA, Bash

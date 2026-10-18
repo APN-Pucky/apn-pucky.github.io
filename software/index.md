@@ -19,8 +19,10 @@ infrastructure that this software relies on:
   event-record format shared by Monte Carlo generators, and to
   [Rivet](https://rivet.hepforge.org/) and [YODA](https://yoda.hepforge.org/),
   used for analysis and histogramming of generated events.
-- [Gentoo Linux](https://www.gentoo.org/) developer, maintaining scientific
-  packages in the [`gentoo-sci`](https://github.com/gentoo/sci) overlay.
+- [Gentoo Linux](https://www.gentoo.org/) developer
+  ([wiki profile]({{ site.author.gentoo_wiki }})), maintaining scientific
+  packages in the [`gentoo-sci`](https://github.com/gentoo/sci) overlay —
+  see the full, live list on [Repology]({{ site.author.repology_url }}).
 - Active in the [Scikit-HEP](https://scikit-hep.org/) ecosystem, primarily
   through `pylhe`.
 

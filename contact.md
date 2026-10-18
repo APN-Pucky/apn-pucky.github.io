@@ -16,6 +16,7 @@ Other institutional addresses on record:
 - alexander.neuwirth /at/ mib.infn.it (INFN Milano-Bicocca)
 - alexander.neuwirth /at/ uni-muenster.de (University of Münster)
 - alexander.puck.neuwirth /at/ cern.ch (CERN)
+- {{ site.author.gentoo_email | replace: "@", " /at/ " }} (Gentoo Linux)
 
 ## Academic profiles
 
@@ -33,6 +34,12 @@ Other institutional addresses on record:
 - [GitLab (CERN): aneuwirt](https://gitlab.cern.ch/aneuwirt)
 - [GitLab (University of Münster)](https://zivgitlab.uni-muenster.de/a_neuw01)
 - [GitLab (DESY)](https://gitlab.desy.de/alexander.neuwirth)
+
+## Open source
+
+- [Gentoo developer wiki page]({{ site.author.gentoo_wiki }})
+- [Repology: packages maintained]({{ site.author.repology_url }})
+- [Open Hub]({{ site.author.openhub_url }})
 
 ## PGP
 
