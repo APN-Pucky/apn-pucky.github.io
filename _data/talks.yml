@@ -180,7 +180,8 @@
   event: "CERN SUSY Group Meeting"
   location: "CERN, Switzerland"
   role: "Remote presentation"
-  title: "Resummino"
+  title: "Electroweak superpartner production with Resummino at 13.6 TeV"
+  slides: "/assets/talks/2022-11-04-cernsusy.pdf"
   publication: resummino-ew-superpartners
 
 - date: 2022-09-27
@@ -188,6 +189,8 @@
   event: "ALICE FSP Meeting 2022"
   role: "Theory talk"
   title: "Prompt photon production with two jets"
+  url: "https://indico.cern.ch/event/1174824/sessions/458857/#20220928"
+  slides: "/assets/talks/2022-09-28-alice-fsp-2022.pdf"
   publication: prompt-photon-two-jets-powheg
 
 - date: 2022-07-07
