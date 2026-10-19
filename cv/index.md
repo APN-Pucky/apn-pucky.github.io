@@ -14,11 +14,3 @@ permalink: /cv/
 </p>
 
 {% include_relative generated.md %}
-
-<p class="meta">
-  This page and the PDF above are both generated from a single
-  <a href="https://github.com/APN-Pucky/apn-pucky.github.io/blob/master/cv.yaml">cv.yaml</a>
-  data file via <a href="https://docs.rendercv.com/">RenderCV</a>, so the two
-  never drift out of sync. For the complete publication record see
-  <a href="{{ '/publications/' | relative_url }}">Publications</a>.
-</p>
