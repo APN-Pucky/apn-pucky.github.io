@@ -1,0 +1,169 @@
+- date: 2026-08-26
+  date_display: "26–28 Aug 2026"
+  event: "MC4EIC 2026"
+  location: "Zürich, Switzerland"
+  role: "Talk"
+  title: "Photon Fragmentation Functions extracted from Pythia stored in LHAPDF"
+  url: "https://indico.cern.ch/event/1667909/contributions/7204732/"
+  slides: "/assets/talks/2026-08-26-mc4eic-2026.pdf"
+  publication: photon-fragmentation-lhapdf
+  abstract: |
+    Prompt-photon predictions with experimentally relevant isolation criteria retain a residual dependence on parton-to-photon fragmentation functions, whose phenomenological uncertainties remain only weakly constrained.
+    We present a pragmatic study of photon fragmentation functions extracted from Pythia parton-shower events and stored in an LHAPDF-compatible format.
+    We briefly review the role of photon fragmentation in perturbative QCD and then construct shower-level estimates of the flavour-dependent functions (D_{\gamma/i}(z,\mu_D)) as functions of the photon momentum fraction (z) and fragmentation scale (\mu_D).
+    The extracted distributions show the expected qualitative hierarchy between quark and gluon channels and an increasing fragmentation probability with scale.
+
+- date: 2025-10-27
+  date_display: "27–30 Oct 2025"
+  event: "PyHEP 2025"
+  location: "CERN, Switzerland"
+  role: "Talk"
+  title: "PyLHE in 2025: New features and improvements"
+  url: "https://indico.cern.ch/event/1566263/contributions/6736105/"
+  publication: pylhe-joss
+  abstract: |
+    The PyLHE library (Python LHE interface) has seen major improvements since 2024. Recent releases introduced LHE file writing (v0.9.0) and extended event weight support for POWHEG (v0.8.0). Event weights, when available, are now included in the output Awkward Arrays, and systematic tests are performed using LHE files from widely used general-purpose Monte Carlo event generators. In addition to bug fixes, a new Sphinx-based documentation has been created. These enhancements make PyLHE more powerful, reliable, and user-friendly for high-energy physics workflows.
+
+    https://github.com/scikit-hep/pylhe
+
+
+- date: 2025-10-21
+  date_display: "21 Oct 2025"
+  event: "Joint INFN-UNIMI-UNIMIB Pheno Seminars"
+  location: "Milan, Italy"
+  role: "Seminar talk"
+  title: "Photon Conversion to Low-Mass Dileptons: Comparing Kroll-Wada and Parton Shower Approaches"
+  url: "https://indico.global/event/15583/"
+  slides: "/assets/talks/2025-10-21-pheno-seminar.pdf"
+  publication: kroll-wada-dileptons
+  abstract: |
+    We study low-mass dielectron production from photon conversions in proton-proton collisions at the LHC, comparing the traditional analytic Kroll-Wada formulation with modern parton shower approaches. Using event generators such as PYTHIA, Vincia, and POWHEG, we investigate how photon-to-dilepton conversion can be modeled consistently within the parton shower framework. This approach naturally incorporates higher-order effects, recoil kinematics, and realistic cuts while preserving normalization through its unitary treatment of internal photon conversions. We find that parton shower simulations reproduce the dilepton spectrum with improved accuracy, particularly at larger invariant masses (2 to 5 GeV) where the Kroll-Wada approximation becomes less reliable.
+
+- date: 2025-09-23
+  date_display: "23–26 Sep 2025"
+  event: "LMee Workshop 2025"
+  location: "Amsterdam, Netherlands"
+  role: "Invited presentation"
+  title: "From Kroll-Wada to Parton Showers: Modern Approaches to Photon-to-Dilepton Conversion for ALICE"
+  url: "https://indico.cern.ch/event/1555637/contributions/6703784/"
+  slides: "/assets/talks/2025-09-23-lmee-workshop-2025.pdf"
+  publication: kroll-wada-dileptons
+
+- date: 2024-09-09
+  date_display: "8–12 Sep 2024"
+  event: "ALICE FSP Meeting 2024"
+  location: "Bad Staffelstein, Germany"
+  role: "Oral communication"
+  title: "Recent work on electromagnetic probes"
+  publication: di-electron-virtual-photon
+  url: "https://indico.cern.ch/event/1433919/contributions/6104717/"
+  slides: "/assets/talks/2024-09-09-alice-fsp-2024.pdf"
+
+- date: 2024-03-06
+  date_display: "5–7 Mar 2024"
+  event: "deRSE 2024"
+  location: "Würzburg, Germany"
+  role: "Conference talk"
+  title: "EESSI-going scientific software installations"
+  slides: "/assets/talks/2024-03-05-derse-2024.pdf"
+  url: "https://events.hifis.net/event/994/contributions/7931/"
+  abstract: |
+    The European Environment for Scientific Software Installations (EESSI, pronounced as "easy") is a collaboration between different European HPC sites and industry partners, with the common goal to set up a shared stack of optimized scientific software installations.
+    It can be used on a variety of systems, regardless of the operating system, processor architecture, or GPU of the client system, or whether it's a full-size HPC cluster, an HTC system, a cloud environment, or a personal workstation, while providing improved reproducibility in scientific computing.
+    Leveraging the tools and expertise inherent in the HPC community, EESSI integrates solutions such as EasyBuild, Lmod, CernVM-FS and Gentoo Prefix to ensure the creation of a scalable and rigorously tested software stack that is easy to deploy and maintain.
+    EESSI also enables users to access the same software stack on their own desktop or laptop, allowing them to run small tests and scale up to larger systems as needed, with a consistent user experience.
+    This presentation provides an exploration of the motivation, design, implementation, and benefits of EESSI.
+
+- date: 2023-10-23
+  date_display: "23–27 Oct 2023"
+  event: "Forward Physics and QCD at the LHC and EIC 2023"
+  location: "Bad Honnef, Germany"
+  title: "Prompt photon production with up to three jets in POWHEG"
+  role: "Poster & flash talk"
+  url: "https://www.we-heraeus-stiftung.de/veranstaltungen/forward-physics-and-qcd-at-the-lhc-and-eic/main/"
+  abstract: |
+    The production of prompt photons in association with jets is a very sensitive probe of the gluon distribution in light and heavy nuclei as well as of the properties of the quark-gluon plasma.
+    We present a new calculation of prompt photon production with up to three jets at next-to-leading order of (NLO) QCD matched to parton showers with the POWHEG method.
+    As applications, we examine correlations between the photon and the produced up to three jets as well as different approaches to photon fragmentation.
+    The POWHEG approach does not require relying on photon fragmentation functions, instead a parton shower is matched to the generated event.
+    The following figures show preliminary results of the new calculation for an isolated photon plus two-jet analysis performed by ATLAS in pp collisions at 13 TeV [1].
+    The analysis examines several observables in different regimes, namely inclusive, direct- enriched and fragmentation-enriched contributions, based on the particle with the largest transverse momentum.
+    In addition to the experimental data, predictions from Sherpa [1], our previous calculation of direct photons in POWHEG with PYTHIA8 [2] as well as recent NNLO corrections [3] are given.
+    Although the data is higher than predicted by the leading order calculation, all higher order calculations agree
+    reasonably well with the data.
+
+    [1] Aad, G. et al. JHEP 03, 179. arXiv: 1912.09866 [hep-ex] (2020)
+    [2] Jezo, T. et al. JHEP 11, 033 arXiv: 1610.02275 [hep-ph] (2016)
+    [3] Badger, S. et al., arXiv: 2304.06682 [hep-ph] (Apr. 2023)
+
+- date: 2023-10-09
+  date_display: "9–12 Oct 2023"
+  event: "Python in HEP 2023"
+  location: "Online"
+  role: "Oral communication"
+  url: "https://indico.cern.ch/event/1252095/timetable/#2-feynman-diagrams-in-python-r"
+  abstract: |
+    feynml is a project to develop an XML dialect for describing Feynman diagrams as used in quantum field theory calculations. A primary goal is the creation of a clear and definitive XML representation of Feynman diagram structures, serving as a standard that can be effortlessly translated into diverse formats. Similarly to HTML/CSS the physical/topological content is separated from the stylized representation.
+    
+    That graphical representation can be realized through pyfeyn2, which took the approach of pyfeyn and extended it to a broader range of render engines namely matplotlib, PyX, tikz, ASCII, Unicode, feynmp and the DOT language. The package allows for manual or automatic placement of vertices, enabling customization and flexibility from within a Notebook.
+    
+    The main difference to existing Mathematica-based solutions lies in the modular approach. This modularity enables easy interfacing with a range of tools. For instance, LHE and HEPMC files can be visualized as Feynman diagrams through pyLHE and pyHEPMC. Additionally, theoretical computations are streamlined through interfaces such as the python-based UFO standard and qgraf. Further, the transformation of diagrams into amplitudes is supported, which can be further processed with tools like form or sympy.
+    
+    The projects are hosted on github
+    https://github.com/APN-Pucky/pyfeyn2
+    https://github.com/APN-Pucky/feynml
+
+
+- date: 2023-06-08
+  date_display: "6–8 Jun 2023"
+  event: "Parton Shower and Resummation Workshop 2023"
+  location: "Milan, Italy"
+  role: "Oral communication"
+  url: "https://indico.global/event/7627/contributions/68433/"
+  publication: prompt-photon-two-jets-powheg
+  slides: "/assets/talks/2023-06-08-psr-2023.pdf"
+
+- date: 2023-03-25
+  date_display: "26–31 Mar 2023"
+  event: "Hard Probes 2023"
+  location: "Aschaffenburg, Germany"
+  role: "Poster presentation"
+  title: "Direct photon + 2 jets"
+  publication: prompt-photon-two-jets-powheg
+  url: "https://inspirehep.net/conferences/2077439"
+
+- date: 2022-11-04
+  date_display: "4 Nov 2022"
+  event: "CERN SUSY Group Meeting"
+  location: "CERN, Switzerland"
+  role: "Remote presentation"
+  title: "Resummino"
+  publication: resummino-ew-superpartners
+
+- date: 2022-09-27
+  date_display: "27–30 Sep 2022"
+  event: "ALICE FSP Meeting 2022"
+  role: "Theory talk"
+  title: "Prompt photon production with two jets"
+  publication: prompt-photon-two-jets-powheg
+
+- date: 2022-07-07
+  date_display: "7 Jul 2022"
+  event: "ICHEP 2022"
+  location: "Bologna, Italy"
+  role: "Remote presentation"
+  url: "https://agenda.infn.it/event/28874/contributions/174099/"
+  slides: "/assets/talks/2022-07-07-ichep-2022.pdf"
+  abstract: |
+    We present a threshold resummation calculation for the associated production of squarks and gauginos at the LHC to the next-to-leading logarithmic (NLL) accuracy, matched to next-to-leading order (NLO) QCD corrections. Analytical results are obtained for the process-dependent soft anomalous dimension and the hard matching coefficient. Numerically, the NLL contributions increase the total NLO cross section by 2 to 8% for central scale choices and squark masses of 1 to 3 TeV, respectively, and reduce the dependence on the factorisation and renormalisation scales typically from up to ±18% to below ±8%. We have implemented the NLO and NLO+NLL calculations in the publicly available program Resummino.
+
+- date: 2022-03-23
+  date_display: "19–26 Mar 2022"
+  event: "56th Rencontres de Moriond, QCD session"
+  location: "La Thuile, Italy"
+  role: "Oral communication"
+  url: "https://moriond.in2p3.fr/2022/QCD/"
+  publication: squark-electroweakino-nll-moriond
+  slides: "/assets/talks/2022-03-23-moriond-2022.pdf"
+  abstract: |
+    Motivated by the increased precision expected from LHC Run 3, equally accurate theory predictions are mandatory. As supersymmetry mass limits increase, predictions can be improved by threshold resummation. We examine the effects of including next-to-leading logarithms on associated squark-electroweakino production at the LHC and find a significant reduction in the uncertainty of factorisation and renormalisation scale dependence and a modest increase in the total cross section.

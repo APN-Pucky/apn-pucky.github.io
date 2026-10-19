@@ -229,6 +229,11 @@ th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(
 
 .future-work { border-left: 3px solid var(--border); padding-left: 1rem; color: var(--text-muted); }
 
+.card details { margin-top: 0.5rem; font-size: 0.95rem; }
+.card details summary { cursor: pointer; color: var(--text-muted); }
+.card details summary:hover { color: var(--accent); }
+.card details p { margin-top: 0.5rem; color: var(--text-muted); }
+
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 @media (max-width: 30rem) {
