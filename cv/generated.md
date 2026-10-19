@@ -49,6 +49,11 @@
 
 
 
+# Service
+- Active organizer of the Joint INFN–UNIMI–UNIMIB Phenomenology Seminar series in Milan (2025 – 2027)
+
+- Active organizer of the Student Seminar and Journal Club, University of Münster (2023 – 2024)
+
 # Publications
 ## **Photon Fragmentation Functions in LHAPDF: Existing Sets and a Pythia-Based Extraction**
 
