@@ -10,7 +10,6 @@ permalink: /talks/
 # Talks
 
 Conference and workshop presentations, in reverse chronological order.
-Also listed on [INSPIRE-HEP]({{ site.author.inspire_url }}) where indexed.
 
 {% capture newline %}
 {% endcapture %}
@@ -30,15 +29,11 @@ Also listed on [INSPIRE-HEP]({{ site.author.inspire_url }}) where indexed.
       {% if t.slides %}<a href="{{ t.slides | relative_url }}">Slides (PDF)</a>{% endif %}
       {% if pub %}<a href="{{ pub.url | relative_url }}">Related publication</a>{% endif %}
     </p>
-    {% if t.abstract or pub.description %}
+    {% if t.abstract %}
     <details>
       <summary>Abstract</summary>
-      {% if t.abstract %}
-        {% assign abstract_lines = t.abstract | strip | split: newline %}
-        {% for line in abstract_lines %}{% if line != "" %}<p>{{ line }}</p>{% endif %}{% endfor %}
-      {% else %}
-        <p>{{ pub.description }}</p>
-      {% endif %}
+      {% assign abstract_lines = t.abstract | strip | split: newline %}
+      {% for line in abstract_lines %}{% if line != "" %}<p>{{ line }}</p>{% endif %}{% endfor %}
     </details>
     {% endif %}
   </li>

@@ -74,6 +74,32 @@
     EESSI also enables users to access the same software stack on their own desktop or laptop, allowing them to run small tests and scale up to larger systems as needed, with a consistent user experience.
     This presentation provides an exploration of the motivation, design, implementation, and benefits of EESSI.
 
+- date: 2024-01-30
+  date_display: "30 Jan 2024"
+  event: "BNL Seminar"
+  location: "Brookhaven National Laboratory, USA"
+  role: "Seminar talk"
+  title: "Real and Virtual Photon production in POWHEG"
+  url: "https://indico.bnl.gov/event/22060/"
+  slides: "/assets/talks/2024-01-30-bnl.pdf"
+  publication: di-electron-virtual-photon
+  abstract: |
+    Both prompt real and virtual photons are sensitive probes of the properties of the quark-gluon plasma and of the gluon distribution in light and heavy nuclei.
+    Despite different experimental signatures, they originate from topologically similar Feynman diagrams and both have the background of hadron decays (arxiv:2401.12875). In this context, I will also touch on the connection between fragmentation functions and parton showers. Finally, I will also briefly showcase recent progress made in extending POWHEG capabilities to support DIS (arxiv:2309.02127).
+
+- date: 2024-02-08
+  date_display: "8 Feb 2024"
+  event: "HEP Seminar, University of Pittsburgh"
+  location: "Pittsburgh, USA"
+  role: "Seminar talk"
+  title: "Improving SUSY limits through Resummation, Merging and Combination"
+  url: "https://www.physicsandastronomy.pitt.edu/events/hep-seminar-alexander-neuwirth-m-nster"
+  slides: "/assets/talks/2024-02-08-pitt.pdf"
+  publication: combination-reinterpretation-susy-searches
+  abstract: |
+    To maximize the information obtained from various BSM searches conducted at the LHC, it is imperative to consider combining ATLAS and CMS analyses. We study the production of pure strong squark pairs, associated squark neutralino and the pure weak neutralino pair in a simplified SUSY scenario. In order to improve accuracy, events of different jet multiplicities are merged and associated with higher order resummed cross sections.
+    Finally, both different processes and analyzes can be combined to push the exclusion limit towards higher masses.
+
 - date: 2023-10-23
   date_display: "23–27 Oct 2023"
   event: "Forward Physics and QCD at the LHC and EIC 2023"
@@ -81,6 +107,8 @@
   title: "Prompt photon production with up to three jets in POWHEG"
   role: "Poster & flash talk"
   url: "https://www.we-heraeus-stiftung.de/veranstaltungen/forward-physics-and-qcd-at-the-lhc-and-eic/main/"
+  slides: "/assets/talks/2023-10-23-forward-2023.pdf"
+  publication: prompt-photon-two-jets-powheg
   abstract: |
     The production of prompt photons in association with jets is a very sensitive probe of the gluon distribution in light and heavy nuclei as well as of the properties of the quark-gluon plasma.
     We present a new calculation of prompt photon production with up to three jets at next-to-leading order of (NLO) QCD matched to parton showers with the POWHEG method.
@@ -113,6 +141,19 @@
     https://github.com/APN-Pucky/pyfeyn2
     https://github.com/APN-Pucky/feynml
 
+- date: 2023-06-29
+  date_display: "29 Jun 2023"
+  event: "GRK 2149 Student Journal Club"
+  location: "University of Münster, Germany"
+  role: "Journal club talk"
+  title: "Monte Carlo event generators and parton showers"
+  url: "https://www.uni-muenster.de/Physik.GRK2149/qualification/student_seminar.html"
+  slides: "/assets/talks/2023-06-29-grk-2023.pdf"
+  abstract: |
+    Monte Carlo event generators and parton showers are fundamental tools in modern particle physics research and serve as indispensable components in both theoretical and experimental studies.
+    We introduce basic concepts of Monte Carlo methods and highlight their application to event generation as well as their optimization techniques.
+    An overview of the event generation process is provided, with a focus on combining next-to-leading order hard scattering with parton distribution functions and parton showers using factorization.
+
 
 - date: 2023-06-08
   date_display: "6–8 Jun 2023"
@@ -123,7 +164,7 @@
   publication: prompt-photon-two-jets-powheg
   slides: "/assets/talks/2023-06-08-psr-2023.pdf"
 
-- date: 2023-03-25
+- date: 2023-03-26
   date_display: "26–31 Mar 2023"
   event: "Hard Probes 2023"
   location: "Aschaffenburg, Germany"
@@ -131,6 +172,8 @@
   title: "Direct photon + 2 jets"
   publication: prompt-photon-two-jets-powheg
   url: "https://inspirehep.net/conferences/2077439"
+  slides: "/assets/talks/2023-03-26-hp-2023.pdf"
+  
 
 - date: 2022-11-04
   date_display: "4 Nov 2022"
@@ -154,6 +197,7 @@
   role: "Remote presentation"
   url: "https://agenda.infn.it/event/28874/contributions/174099/"
   slides: "/assets/talks/2022-07-07-ichep-2022.pdf"
+  publication: soft-gluon-resummation-squark-electroweakino
   abstract: |
     We present a threshold resummation calculation for the associated production of squarks and gauginos at the LHC to the next-to-leading logarithmic (NLL) accuracy, matched to next-to-leading order (NLO) QCD corrections. Analytical results are obtained for the process-dependent soft anomalous dimension and the hard matching coefficient. Numerically, the NLL contributions increase the total NLO cross section by 2 to 8% for central scale choices and squark masses of 1 to 3 TeV, respectively, and reduce the dependence on the factorisation and renormalisation scales typically from up to ±18% to below ±8%. We have implemented the NLO and NLO+NLL calculations in the publicly available program Resummino.
 
