@@ -76,6 +76,21 @@ wide: true
 </ul>
 
 <div class="home-section-head">
+  <h2>Selected talks</h2>
+  <a href="{{ '/talks/' | relative_url }}">All talks →</a>
+</div>
+<ul class="card-list">
+  {% assign featured_talks = site.data.talks | where: "featured", true | sort: "date" | reverse %}
+  {% for t in featured_talks %}
+    <li class="card">
+      <h3>{{ t.event }}</h3>
+      <p class="meta">{{ t.date_display }} · {{ t.role }}</p>
+      {% if t.title %}<p>&ldquo;{{ t.title }}&rdquo;</p>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="home-section-head">
   <h2>Software</h2>
   <a href="{{ '/software/' | relative_url }}">All software →</a>
 </div>

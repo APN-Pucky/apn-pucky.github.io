@@ -1,6 +1,7 @@
 - date: 2026-08-26
   date_display: "26–28 Aug 2026"
   event: "MC4EIC 2026"
+  featured: true
   location: "Zürich, Switzerland"
   role: "Talk"
   title: "Photon Fragmentation Functions extracted from Pythia stored in LHAPDF"
@@ -16,6 +17,7 @@
 - date: 2025-10-27
   date_display: "27–30 Oct 2025"
   event: "PyHEP 2025"
+  featured: true
   location: "CERN, Switzerland"
   role: "Talk"
   title: "PyLHE in 2025: New features and improvements"
@@ -42,6 +44,7 @@
 - date: 2025-09-23
   date_display: "23–26 Sep 2025"
   event: "LMee Workshop 2025"
+  featured: true
   location: "Amsterdam, Netherlands"
   role: "Invited presentation"
   title: "From Kroll-Wada to Parton Showers: Modern Approaches to Photon-to-Dilepton Conversion for ALICE"
@@ -103,6 +106,7 @@
 - date: 2023-10-23
   date_display: "23–27 Oct 2023"
   event: "Forward Physics and QCD at the LHC and EIC 2023"
+  featured: true
   location: "Bad Honnef, Germany"
   title: "Prompt photon production with up to three jets in POWHEG"
   role: "Poster & flash talk"
