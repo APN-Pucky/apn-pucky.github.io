@@ -42,6 +42,7 @@ infrastructure that this software relies on:
       {% if s.repo %}<a href="{{ s.repo }}">Source</a>{% endif %}
       {% if s.docs %}<a href="{{ s.docs }}">Docs</a>{% endif %}
       {% if s.pypi %}<a href="{{ s.pypi }}">PyPI</a>{% endif %}
+      {% if s.doi %}<a href="https://doi.org/{{ s.doi }}">DOI</a>{% endif %}
     </p>
   </li>
 {% endfor %}
