@@ -54,6 +54,9 @@
 
 - Active organizer of the Student Seminar and Journal Club, University of Münster (2023 – 2024)
 
+# Peer Review
+- Referee, SciPost Physics Community Reports — report on arXiv:2605.12229 ("Open LHC Monte Carlo Event Generation"), delivered 24 July 2026 (DOI: 10.21468/SciPost.Report.13993)
+
 # Publications
 ## **Photon Fragmentation Functions in LHAPDF: Existing Sets and a Pythia-Based Extraction**
 
