@@ -1,3 +1,12 @@
+- date: 2026-11-13
+  date_display: "13 Nov 2026"
+  event: "QCD meets EW 2026"
+  location: "Milan, Italy"
+  role: "Talk"
+  title: "Towards NNLO QCD + NLO EW Drell-Yan Predictions with GENEVA"
+  url: "https://indico.cern.ch/event/1738942/contributions/7318792/"
+  slides: "/assets/talks/2026-11-13-qcd-meets-ew-2026.pdf"
+
 - date: 2026-08-26
   date_display: "26–28 Aug 2026"
   event: "MC4EIC 2026"
